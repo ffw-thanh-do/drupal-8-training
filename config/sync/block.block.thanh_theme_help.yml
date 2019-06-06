@@ -1,0 +1,22 @@
+uuid: 558ac28c-95a9-4c58-84fb-11145604e9ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - thanh_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: thanh_theme_help
+theme: thanh_theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

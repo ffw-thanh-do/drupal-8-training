@@ -1,0 +1,19 @@
+uuid: b52df810-5bc2-4e94-886a-7aff6deae0cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - ffw_custom.office_type.office
+    - field.storage.office.field_country
+id: office.office.field_country
+field_name: field_country
+entity_type: office
+bundle: office
+label: Country
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

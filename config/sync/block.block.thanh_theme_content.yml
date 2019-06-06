@@ -1,0 +1,22 @@
+uuid: 34a6ef4c-71b3-4af6-bf4e-5c97afedba06
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - thanh_theme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: thanh_theme_content
+theme: thanh_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

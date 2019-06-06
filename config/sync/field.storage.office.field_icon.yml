@@ -1,0 +1,27 @@
+uuid: 33364f4f-1d9e-4184-a06c-6a85a63eef30
+langcode: en
+status: true
+dependencies:
+  module:
+    - ffw_custom
+    - options
+id: office.field_icon
+field_name: field_icon
+entity_type: office
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'fab fa-facebook-f'
+      label: Facebook
+    -
+      value: 'fab fa-youtube'
+      label: Youtube
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,63 @@
+uuid: 6268c5fe-35b4-4ece-a0df-68cadc14e602
+langcode: en
+status: true
+dependencies:
+  config:
+    - ffw_custom.office_type.office
+    - field.field.office.office.field_address
+    - field.field.office.office.field_city
+    - field.field.office.office.field_country
+    - field.field.office.office.field_icon
+id: office.office.default
+targetEntityType: office
+bundle: office
+mode: default
+content:
+  field_address:
+    weight: 29
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_city:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_country:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_icon:
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

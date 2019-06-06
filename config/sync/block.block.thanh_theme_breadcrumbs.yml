@@ -1,0 +1,22 @@
+uuid: 02028a44-b758-4f6a-b415-64253a90aa38
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - thanh_theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: thanh_theme_breadcrumbs
+theme: thanh_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

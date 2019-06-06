@@ -1,0 +1,22 @@
+uuid: 821e843f-109e-408b-9dde-194bdbe95f3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - thanh_theme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: thanh_theme_powered
+theme: thanh_theme
+region: sidebar_first
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

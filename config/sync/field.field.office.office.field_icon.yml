@@ -1,0 +1,21 @@
+uuid: 796aaaab-06ec-438a-a33b-c7998dc52df0
+langcode: en
+status: true
+dependencies:
+  config:
+    - ffw_custom.office_type.office
+    - field.storage.office.field_icon
+  module:
+    - options
+id: office.office.field_icon
+field_name: field_icon
+entity_type: office
+bundle: office
+label: Icon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

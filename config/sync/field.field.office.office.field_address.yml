@@ -1,0 +1,19 @@
+uuid: b4b79233-9d65-4ed3-ae41-ecddb3ce2f8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - ffw_custom.office_type.office
+    - field.storage.office.field_address
+id: office.office.field_address
+field_name: field_address
+entity_type: office
+bundle: office
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

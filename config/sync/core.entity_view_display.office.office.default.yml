@@ -1,0 +1,65 @@
+uuid: 28b793a8-bfa5-4965-83c9-be9fb86cdd27
+langcode: en
+status: true
+dependencies:
+  config:
+    - ffw_custom.office_type.office
+    - field.field.office.office.field_address
+    - field.field.office.office.field_city
+    - field.field.office.office.field_country
+    - field.field.office.office.field_icon
+  module:
+    - options
+    - user
+id: office.office.default
+targetEntityType: office
+bundle: office
+mode: default
+content:
+  field_address:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_city:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_country:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_icon:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  name:
+    label: above
+    type: string
+    weight: -4
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  user_id:
+    label: hidden
+    type: author
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

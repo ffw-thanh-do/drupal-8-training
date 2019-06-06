@@ -1,0 +1,14 @@
+{
+  "name": "drupal/ffw_custom",
+  "type": "drupal-module",
+  "description": "Implement custom config for FFW site",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/ffw_custom",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/ffw_custom",
+    "source": "http://cgit.drupalcode.org/ffw_custom"
+  },
+  "require": { }
+}
